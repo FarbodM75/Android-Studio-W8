@@ -31,11 +31,6 @@ public class MainActivity extends AppCompatActivity {
         secondNumInput = findViewById(R.id.inputSecondNumber);
         resultText = findViewById(R.id.textResult);
     }
-    public void transformNum(View view) {
-        int firstNum = Integer.parseInt(firstNumInput.getText().toString());
-        int secondNum = Integer.parseInt(secondNumInput.getText().toString());
-
-    }
 
     public void plusNum(View view) {
         int num1 = Integer.parseInt(firstNumInput.getText().toString());
